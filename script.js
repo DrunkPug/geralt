@@ -2,9 +2,9 @@ function writePoem () {
     let name = document.getElementById("input-name").value;
     if ((name == "") || (name == "Введите имя") || (name == "Ламберт")) {
         name = "Ламберт";
-        document.querySelector(".poem-block").style.backgroundImage = "url('img/geralt4.png')";
+        document.querySelector(".poem-block").style.backgroundImage = "url('geralt4.png')";
     } else {
-        document.querySelector(".poem-block").style.backgroundImage = "url('img/geralt3.png')";
+        document.querySelector(".poem-block").style.backgroundImage = "url('geralt3.png')";
          };
     document.getElementById("poem-text1").textContent = `${name}, ${name} хер моржовый,`;
     document.getElementById("poem-text2").textContent = `${name}, ${name} вредный хуй!`;
