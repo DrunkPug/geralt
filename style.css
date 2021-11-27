@@ -7,7 +7,7 @@
 
 .main-block {
     display: block;
-    background-image: url("img/geralt2.png");
+    background-image: url("geralt2.png");
     background-size: 800px 800px;
     width: 800px;
     height: 800px;
@@ -16,7 +16,7 @@
 
 .poem-block {
     display: none;
-    background-image: url("img/geralt3.png");
+    background-image: url("geralt3.png");
     background-size: 800px 800px;
     width: 800px;
     height: 800px;
@@ -78,7 +78,7 @@ h1 {
 
 
 #btn-write {
-    background: url("img/done.png") no-repeat center;
+    background: url("done.png") no-repeat center;
     height: 60px;
     width: 60px;
     border: 0px;
@@ -93,7 +93,7 @@ h1 {
 }
 
 #btn-new {
-    background: url("img/return.png") no-repeat center;
+    background: url("return.png") no-repeat center;
     height: 60px;
     width: 60px;
     border: 0px;
